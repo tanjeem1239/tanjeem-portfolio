@@ -6,7 +6,6 @@ import { BsFillMoonStarsFill } from 'react-icons/bs';
 import code from "../public/code.png";
 import consulting from "../public/consulting.png";
 import design from "../public/design.png";
-import tanjeem from "../public/tanjeem-01.png";
 import web1 from "../public/web1.png";
 import web2 from "../public/web2.png";
 import web3 from "../public/web3.png";
@@ -55,7 +54,7 @@ export default function Home() {
          </a>
         </div>
         <div className="relative mx-auto w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96"> 
-          <Image src={tanjeem} layout="fill" objectFit="cover" alt="portfolio"/>
+          {/* <Image src={tanjeem} layout="fill" objectFit="cover" alt="portfolio"/> */}
         </div>
       </section>
       <section>
