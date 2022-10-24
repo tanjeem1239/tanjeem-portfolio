@@ -28,8 +28,8 @@ export default function Home() {
 
       <section className="min-h-screen dark:text-white">
         <nav className="py-10 mb-12 flex justify-between">
-          <h1 className='text-xl font-burtons '>Tanjeem</h1>
-          <ul className='flex items-center'>
+          <h1 className="text-xl font-burtons">Tanjeem</h1>
+          <ul className="flex items-center">
             <li>
               <BsFillMoonStarsFill onClick={()=> setDarkMode(!darkMode)} className="cursor-pointer text-2xl"/>
             </li>
@@ -37,7 +37,7 @@ export default function Home() {
           </ul>
         </nav>
         <div className="text-center p-10 ">
-          <h6 className='text-md font-burtons '>Hello! My name is,</h6>
+          <h6 className="text-md font-burtons">Hello! My name is,</h6>
           <h2 className="text-5xl py-2 text-teal-600 font-bold
            md:text-6xl ">Tanjeem </h2>
           <h3 className="text-2xl py-2 font-semibold md:text-3xl">Front-end Developer, Designer</h3>
@@ -61,7 +61,7 @@ export default function Home() {
       <section>
         <div className="dark:text-white">
           <h3 className="text-3xl pt-10 font-bold"> Services I offer</h3>
-          <p className="text-md py-5 leading-8 text-gray-800 dark:text-white">Since the beginning of my journey as a freelance developer, I've done remote work for
+          <p className="text-md py-5 leading-8 text-gray-800 dark:text-white">Since the beginning of my journey as a freelance developer, Ive done remote work for
           <span className="text-teal-500"> agencies </span> consulted for <span className="text-teal-500"> startups </span> and collaborated with talented people to create digital products for both business and consumer use. 
           </p>
 
@@ -85,7 +85,7 @@ export default function Home() {
           <div className="text-center shadow-lg p-10 rounded-xl my-10 flex-1 dark:bg-gray-800">
             <Image src={design} width={100} height={100}/>
             <h3 className="text-lg font-medium pt-8 pb-2">User Interface Design</h3>
-            <p>Prioritizing the user's visual experience</p>
+            <p>Prioritizing the users visual experience</p>
             <h4 className="text-teal-500"> Design tools I use</h4>
             <p className="text-gray-800 py-1 dark:text-white">FIgma</p>
             <p className="text-gray-800 py-1 dark:text-white">Illustrator</p>
@@ -111,27 +111,27 @@ export default function Home() {
           <h3 className="text-3xl py-1 dark:text-white">Portfolio</h3>
           
           <p className="text-md py-5 leading-8 text-gray-800 dark:text-white">
-          Tanjeem is a web developer who focuses on creating engaging website designs with responsive UI. Tanjeem’s ability to integrate color and visuals effectively into his portfolio shows his creativity as a designer.
+          Tanjeem is a web developer who focuses on creating engaging website designs with responsive UI. Tanjeems ability to integrate color and visuals effectively into his portfolio shows his creativity as a designer.
           </p>
         </div>
         <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
           <div className="basis-1/3 flex-1">
-            <Image src={web1} className="rounded-lg object-cover" width={'100%'}  height={'100%'} layout="responsive"/>
+            <Image src={web1} className="rounded-lg object-cover" width={'100%'}  height={'100%'} layout="responsive" alt="portfolio"/>
           </div>
           <div className="basis-1/3 flex-1">
-            <Image src={web2} className="rounded-lg object-cover" width={'100%'}  height={'100%'} layout="responsive"/>
+            <Image src={web2} className="rounded-lg object-cover" width={'100%'}  height={'100%'} layout="responsive" alt="portfolio"/>
           </div>
           <div className="basis-1/3 flex-1">
-            <Image src={web3} className="rounded-lg object-cover" width={'100%'}  height={'100%'} layout="responsive"/>
+            <Image src={web3} className="rounded-lg object-cover" width={'100%'}  height={'100%'} layout="responsive" alt="portfolio"/>
           </div>
           <div className="basis-1/3 flex-1">
-            <Image src={web4} className="rounded-lg object-cover" width={'100%'}  height={'100%'} layout="responsive"/>
+            <Image src={web4} className="rounded-lg object-cover" width={'100%'}  height={'100%'} layout="responsive" alt="portfolio"/>
           </div>
           <div className="basis-1/3 flex-1">
-            <Image src={web5} className="rounded-lg object-cover" width={'100%'}  height={'100%'} layout="responsive"/>
+            <Image src={web5} className="rounded-lg object-cover" width={'100%'}  height={'100%'} layout="responsive" alt="portfolio"/>
           </div>
           <div className="basis-1/3 flex-1">
-            <Image src={web6} className="rounded-lg object-cover" width={'100%'}  height={'100%'} layout="responsive"/>
+            <Image src={web6} className="rounded-lg object-cover" width={'100%'}  height={'100%'} layout="responsive" alt="portfolio"/>
           </div>
         </div>
       </section>
