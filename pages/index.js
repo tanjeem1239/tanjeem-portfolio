@@ -55,7 +55,7 @@ export default function Home() {
          </a>
         </div>
         <div className="relative mx-auto w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96"> 
-          <Image src={tanjeem} layout="fill" objectFit="cover"/>
+          <Image src={tanjeem} layout="fill" objectFit="cover" alt="portfolio"/>
         </div>
       </section>
       <section>
@@ -73,7 +73,7 @@ export default function Home() {
         <div className="lg:flex gap-10 dark:text-white">
           
         <div className="text-center shadow-lg p-10 rounded-xl my-10 flex-1 dark:bg-gray-800">
-            <Image src={code} width={100} height={100}/>
+            <Image src={code} width={100} height={100} alt="portfolio"/>
             <h3 className="text-lg font-medium pt-8 pb-2">Web Development</h3>
             <p>I build fast, robust, and adaptable web apps</p>
             <h4 className="text-teal-500"> Frameworks I use</h4>
@@ -83,7 +83,7 @@ export default function Home() {
           </div>
           
           <div className="text-center shadow-lg p-10 rounded-xl my-10 flex-1 dark:bg-gray-800">
-            <Image src={design} width={100} height={100}/>
+            <Image src={design} width={100} height={100} alt="portfolio"/>
             <h3 className="text-lg font-medium pt-8 pb-2">User Interface Design</h3>
             <p>Prioritizing the users visual experience</p>
             <h4 className="text-teal-500"> Design tools I use</h4>
@@ -95,7 +95,7 @@ export default function Home() {
 
           
           <div className="text-center shadow-lg p-10 rounded-xl my-10 flex-1 dark:bg-gray-800" >
-            <Image src={consulting} width={100} height={100}/>
+            <Image src={consulting} width={100} height={100} alt="portfolio"/>
             <h3 className="text-lg font-medium pt-8 pb-2">Digital Content Development</h3>
             <p>Creating elegent designs suited for your needs design theory</p>
             <h4 className="text-teal-500"> Design tools I use</h4>
